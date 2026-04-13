@@ -13,13 +13,13 @@ Detalhes Institucionais:
 * Público-alvo: Professores e coordenação pedagógica do Ensino Médio em Tempo Integral (EMTI).
 * Status: Em Desenvolvimento (Versão v1_30032026).
 
-Problemas Identificados (Processo Antigo)
+Problemas Identificados (Processo Antigo):
 
 * Processo Manual: Professores criam cópias de arquivos Word e as enviam por e-mail.
 * Descentralização e Duplicidade: Com 4 coordenadores acessando o mesmo e-mail, geram-se múltiplas versões e risco de alteração nos originais.
 * Análise Isolada: Os dados são analisados individualmente, dificultando uma visão geral da escola.
 
-Solução Proposta
+Solução/Proposta:
 
 A nova implementação segue um fluxo digital estruturado:
 
@@ -27,20 +27,20 @@ A nova implementação segue um fluxo digital estruturado:
 2. Banco de Dados: As informações são armazenadas automaticamente em uma planilha centralizada.
 3. Gestão: A coordenação acessa os dados através de uma interface de visualização para análise conjunta.
 
-Estrutura do Formulário (GEA 2026)
+Estrutura do Formulário (GEA 2026):
 
   O sistema captura as seguintes dimensões pedagógicas:
   
-*Identificação: Nome, Turma, Componente Curricular e Trimestre.
+* Identificação: Nome, Turma, Componente Curricular e Trimestre.
 * Desenvolvimento Curricular: Justificativa, Conteúdos IFA, Habilidades (Cognitivas e Socioemocionais), Valores e Competências para o Mundo do Trabalho.
 * Metodologia: Situações didáticas e detalhamento de atividades (Prévias, Autodidáticas, Didático-Cooperativas e Complementares).
 * Recursos e Avaliação: Práticas educativas, espaços utilizados, recursos didáticos, estratégias de avaliação e fontes de referência.
 
-Implementação Técnica (v1)
+Implementação Técnica (v1):
 
   A primeira versão utiliza Google Apps Script para gerar o formulário de coleta.
 
-Função Principal: gerarFormularioGEA()
+Função Principal: gerarFormularioGEA().
 
   O script automatiza:
   
